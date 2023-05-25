@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Darumadrop+One&family=Russo+One&display=swap');
+
+
+body{
+    background-color: rgb(74, 204, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 80vh;
+    
+    
+}
+h1{
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Darumadrop One', cursive;
+    font-family: 'Russo One', sans-serif;
+}
+.container{
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+
+}
+.form{
+    display: flex;
+}
+
+
+.input{
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border: 3px solid rgb(74, 204, 248);
+    margin-bottom: 20px;
+    font-size: 20px;
+   
+}
+.input::placeholder{
+    display: none;
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+.add{
+    height: 38px;
+    outline: none;
+    border: none;
+    background-color: rgb(74, 204, 248);
+    color: white;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.close{
+    background-color: white;
+    outline: none;
+    border: none; 
+    float: right;  
+}
+.close:hover{
+    font-size: 16px;
+}
+
+.complete{
+    color: rgb(3, 177, 9);
+    background-color: white;
+    outline: none;
+    border: none;
+    float: right;
+}
+.complete:hover{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 177, 9);
+    border-radius: 50px;
+}
+
+.edit{
+    background-color: white;
+    outline: none;
+    border: none;
+    float: right;
+    font-size: 20px;
+}
+.edit:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+p{
+    display: flex;
+}
+
+.task{
+    outline: none;
+    border: none;
+    color: rgb(3, 111, 169);
+    font-size: 15px;
+    width: 100%;
+    
+}
+.toggle{
+    text-decoration: line-through;
+}
+
+.taskup{
+    border-bottom: 2px solid red;
+}
+
+.update{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(74, 204, 248);
+    padding: 5px;
+    border-radius: 50px;
+}
